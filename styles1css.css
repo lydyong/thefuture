@@ -1,0 +1,201 @@
+@charset "UTF-8";
+body {
+padding: 0;
+margin: 0; }
+
+img {position:absolute;}
+
+#container {
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+}
+
+.quote {
+  position: fixed;
+  top: 0;
+  left:0;
+  /* Preserve aspet ratio */
+  width: 100%;
+  height: 100%;
+}
+.person1 {
+ position: fixed;
+  top:30%;
+  left: 26.1%;
+  width: 15%;
+  height: 40.3%;
+}
+.person2 {
+ position: fixed;
+  top:36%;
+  left: 56.3%;
+  width: 15%;
+  height: 30.3%;
+}
+.cycle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  width: 100%;
+  height: 100%;
+}
+
+.type2 {
+/*  background-image: url("the future starts today.png");*/
+  position: fixed;
+  top: 40.786%;
+  left: 34.815%;
+  width: 29.83%;
+  height: auto;
+}
+
+
+.type {
+/*  background-image: url("the future starts today.png");*/
+  position: fixed;
+  top: 54.786%;
+  left: 15.815%;
+  width: 49.83%;
+  height: auto;
+}
+
+.hangingdb {
+ position: fixed;
+  top:0;
+  left: 85.9%;
+  width: auto;
+  height: 35.83%;
+}
+.background {
+  position: fixed;
+  top: 0;
+  left: 12.5%;
+  /* Preserve aspet ratio */
+  width: 75%;
+  height: auto;
+}
+.firstqm {
+ position: fixed;
+  top: 73.77%;
+  left: 45.9%;
+  width: auto;
+  height: 16.83%;
+}
+.waxingcrescent {
+ position: fixed;
+  top: 64.90%;
+  left: 34.15%;
+  width: auto;
+  height: 16.83%;
+}
+.waxinggibbous {
+ position: fixed;
+  top: 64.90%;
+  left: 57.45%;
+  width: auto;
+  height: 16.83%;
+}
+.newmoon {
+ position: fixed;
+  top: 43.70%;
+  left: 29.65%;
+  width: auto;
+  height: 16.83%;
+}
+
+.fullmoon {
+ position: fixed;
+  top: 43.2%;
+  left: 62.35%;
+  width: auto;
+  height: 16.83%;
+}
+
+.waningcrescent {
+ position: fixed;
+  top: 21.9%;
+  left: 34.35%;
+  width: auto;
+  height: 16.83%;
+}
+
+.waninggibbous {
+ position: fixed;
+  top: 22.3%;
+  left: 57.65%;
+  width: auto;
+  height: 16.83%;
+}
+
+.thirdquarter {
+ position: fixed;
+  top: 13.47%;
+  left: 45.99%;
+  width: auto;
+  height: 16.83%;
+}
+
+.allyou {
+  position: relative;
+  top: 16.786%;
+  left: 19.815%;
+  width: 20.83%;
+  height: auto;
+}
+
+.youdetermine {
+  position: relative;
+  top: 55.786%;
+  left: 9.815%;
+  width: 20.83%;
+  height: auto;
+}
+
+.takecontrol {
+  position: relative;
+  top: 45.786%;
+  left: 2.815%;
+  width: 20.83%;
+  height: auto;
+}
+
+.acceptreality {
+  position: relative;
+  top: 83.786%;
+  left: 15.815%;
+  width: 20.83%;
+  height: auto;
+}
+.yourpastdoesnt {
+  position: relative;
+  top: 33.786%;
+  left: 65.815%;
+  width: 20.83%;
+  height: auto;
+}
+
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#container { position:absolute; margin: 0; bottom: 0; }
+
+input[type="range"] {
+  width: 30px;
+}
+
+
+div {
+  margin: 2rem;
+}
+
+.screen-reader-only {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}

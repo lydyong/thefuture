@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>documenttitle</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="background-color:#C3B299;">
+
+	<div id="container">
+	
+<img src="psds/background.jpg" class="background" alt=""/>
+	
+<img src="psds/background_0001_the-future-starts-today.png" class="type" alt="" />
+	 
+	 <!--onmouseover="this.src='psd/origdoor.png'" onmouseout="this.src='psds/doorcontrast_0001_Screen-Shot-2021-05-26-at-11.21.27-AM.png"/> -->
+<p>
+ <a href="pages/reference.html">
+  <img src="psds/origdoor.png" class="door" alt="" onmouseover="this.src='psds/doorcontrast.png'" onmouseout= "onmouseoutFunc(this)"  />
+	   
+ </a>
+</p>
+		
+	 <script>
+
+        function onmouseoverFunc(element) {
+        }
+
+        function onmouseoutFunc(element) {
+            element.src = "psds/origdoor.png";
+		}
+    </script>
+
+		
+	</div>
+	
+</body>
+</html>

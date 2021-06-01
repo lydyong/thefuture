@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>video</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 1);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+	h1 {text-align: center;}
+p {text-align: center;}
+#myBtn {text-align: center;}
+
+</style>
+<link href="../styles1css.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+<video autoplay loop id="myVideo">
+  <source src="../videos/video.mp4" type="video/mp4">
+	
+</video>
+
+<div class="content">
+	<a href="timeline.html">
+  <h1 style="color:white;font-family:'titania';font-size:200%;" >Today is the tomorrow of yesterday</h1>  </a>
+	
+  <p style="color:white;font-family:'titania';font-size:100%;">The rest of your future starts today. Today is all you have. Stop waiting around for things to get better in the future. YOU have the power to make today yours.</p>
+  <button id="myBtn" onclick="myFunction()" style="color:black;font-family:'titania';font-size:150%;">Pause</button>
+	
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>
